@@ -17,7 +17,7 @@ public class App {
 		
 		
 		Employee emp1 = new Employee(3, "Nakul","Male", 96000);
-//		edao.saveEmployee(emp1);
+		edao.saveEmployee(emp1);
 		
 		
 //    	edao.updateEmployee(emp1);
@@ -25,11 +25,11 @@ public class App {
 //    	edao.deleteEmployee(7);
 //    	edao.deleteEmployee(9);
 
-		List<Employee> allEmp=edao.getAllEmp();
-//		
-		for (Employee employee : allEmp) {
-			System.out.println(employee);
-		}
+//		List<Employee> allEmp=edao.getAllEmp();
+////		
+//		for (Employee employee : allEmp) {
+//			System.out.println(employee);
+//		}
 		System.out.println("Get successfully");
 
 	}
